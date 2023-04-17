@@ -1,12 +1,12 @@
 ---
-title: 如何用 Hexo + GitHub Page 部署博客
+title: 如何用 Hexo + GitHub Pages 部署博客
 date: 2023-04-17 20:42:25
 tags: [HOW-TO, hexo]
 ---
 
-# 如何用 Hexo + GitHub Page 部署博客
+# 如何用 Hexo + GitHub Pages 部署博客
 
-总算把博客搭起来了（意外地还挺方便），那么作为博客的第一篇文章，就简单总结一下用 Hexo + GitHub Page 部署博客的步骤吧。
+总算把博客搭起来了，意外地还挺方便，博客的第一篇文章就简单总结一下用 Hexo + GitHub Pages 部署博客的步骤吧。
 
 ## 部署
 
