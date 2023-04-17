@@ -16,7 +16,7 @@ tags: [HOW-TO, hexo]
 
 3. 上传到 GitHub 仓库
 
-4. 到 GitHub 仓库的 `Settings > Pages > Build and deployment` 把 Branch 改为 `gh-page`
+4. 到 GitHub 仓库的 `Settings > Pages > Build and deployment` 把 Branch 改为 `gh-pages`
 
 完事了，接下来只要在`source/_posts` 里用 Markdown 写东西就行了，写完上传到 GitHub，等两分钟就更新了。
 
@@ -26,4 +26,4 @@ tags: [HOW-TO, hexo]
 
 2. 输入命令 `hexo server` 可以启动本地服务器，先在本地预览效果，效果满意了再发布到仓库，没必要频繁上传。
 
-3. 不要在 GitHub Desktop 里把分支切到 `gh-page`，这个分支没有 ignore node_modules，切过去显示 1000 多个文件变化，巨 TM 卡，切都切不回去。
+3. 不要在 GitHub Desktop 里把分支切到 `gh-pages`，这个分支没有 ignore node_modules，切过去显示 1000 多个文件变化，巨 TM 卡，切都切不回去。
