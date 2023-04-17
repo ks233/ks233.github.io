@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>如何用 Hexo + GitHub Page 部署博客</title>
+    <link href="/2023/04/17/%E5%A6%82%E4%BD%95%E7%94%A8%20Hexo%20+%20GitHub%20Page%20%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2/"/>
+    <url>/2023/04/17/%E5%A6%82%E4%BD%95%E7%94%A8%20Hexo%20+%20GitHub%20Page%20%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2/</url>
+    
+    <content type="html"><![CDATA[<h1 id="如何用-Hexo-GitHub-Page-部署博客"><a href="#如何用-Hexo-GitHub-Page-部署博客" class="headerlink" title="如何用 Hexo + GitHub Page 部署博客"></a>如何用 Hexo + GitHub Page 部署博客</h1><p>总算把博客搭起来了（意外地还挺方便），那么作为博客的第一篇文章，就简单总结一下用 Hexo + GitHub Page 部署博客的步骤吧。</p><h2 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h2><ol><li><p>安装 hexo-cli，输入命令 <code>hexo init &lt;username&gt;.github.io</code> 初始化一个文件夹</p></li><li><p>创建文件 <code>.github/workflows/pages.yml</code>，内容照着<a href="https://hexo.io/zh-cn/docs/github-pages">这里</a>写</p></li><li><p>上传到 GitHub 仓库</p></li><li><p>到 GitHub 仓库的 <code>Settings &gt; Pages &gt; Build and deployment</code> 把 Branch 改为 <code>gh-page</code></p></li></ol><p>完事了，接下来只要在<code>source/_posts</code> 里用 Markdown 写东西就行了，写完上传到 GitHub，等两分钟就更新了。</p><h2 id="其它注意事项"><a href="#其它注意事项" class="headerlink" title="其它注意事项"></a>其它注意事项</h2><ol><li><p>在 <code>_config.yml</code> 里可以设置站点标题、使用的主题、域名。</p></li><li><p>输入命令 <code>hexo server</code> 可以启动本地服务器，先在本地预览效果，效果满意了再发布到仓库，没必要频繁上传。</p></li><li><p>不要在 GitHub Desktop 里把分支切到 <code>gh-page</code>，这个分支没有 ignore node_modules，切过去显示 1000 多个文件变化，巨 TM 卡，切都切不回去。</p></li></ol>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>HOW-TO</tag>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
