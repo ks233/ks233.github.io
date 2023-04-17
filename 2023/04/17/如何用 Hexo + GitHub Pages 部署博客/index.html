@@ -24,7 +24,7 @@
 <meta property="og:description" content="如何用 Hexo + GitHub Pages 部署博客总算把博客搭起来了，意外地还挺方便，博客的第一篇文章就简单总结一下用 Hexo + GitHub Pages 部署博客的步骤吧。 部署 安装 hexo-cli，输入命令 hexo init &lt;username&gt;.github.io 初始化一个文件夹  创建文件 .github&#x2F;workflows&#x2F;pages.yml，内容照着这里写">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-04-17T12:42:25.000Z">
-<meta property="article:modified_time" content="2023-04-17T15:24:38.575Z">
+<meta property="article:modified_time" content="2023-04-17T15:29:08.598Z">
 <meta property="article:author" content="ks233">
 <meta property="article:tag" content="HOW-TO">
 <meta property="article:tag" content="hexo">
@@ -221,7 +221,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          490 字
+          492 字
         
       </span>
     
@@ -283,7 +283,7 @@
 </li>
 <li><p>上传到 GitHub 仓库</p>
 </li>
-<li><p>到 GitHub 仓库的 <code>Settings &gt; Pages &gt; Build and deployment</code> 把 Branch 改为 <code>gh-page</code></p>
+<li><p>到 GitHub 仓库的 <code>Settings &gt; Pages &gt; Build and deployment</code> 把 Branch 改为 <code>gh-pages</code></p>
 </li>
 </ol>
 <p>完事了，接下来只要在<code>source/_posts</code> 里用 Markdown 写东西就行了，写完上传到 GitHub，等两分钟就更新了。</p>
@@ -292,7 +292,7 @@
 </li>
 <li><p>输入命令 <code>hexo server</code> 可以启动本地服务器，先在本地预览效果，效果满意了再发布到仓库，没必要频繁上传。</p>
 </li>
-<li><p>不要在 GitHub Desktop 里把分支切到 <code>gh-page</code>，这个分支没有 ignore node_modules，切过去显示 1000 多个文件变化，巨 TM 卡，切都切不回去。</p>
+<li><p>不要在 GitHub Desktop 里把分支切到 <code>gh-pages</code>，这个分支没有 ignore node_modules，切过去显示 1000 多个文件变化，巨 TM 卡，切都切不回去。</p>
 </li>
 </ol>
 
