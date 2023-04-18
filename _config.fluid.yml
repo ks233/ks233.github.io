@@ -14,3 +14,5 @@ about:
     - { class: 'iconfont icon-github-fill', link: 'https://github.com/ks233' }
     - { class: 'iconfont icon-bilibili-fill', link: 'https://space.bilibili.com/4790803' }
     - { class: 'iconfont icon-steam', link: 'https://steamcommunity.com/id/ks-233' }
+
+favicon: favicon/mio.ico
