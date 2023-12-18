@@ -9,7 +9,7 @@
 /* 页脚模糊 + 变暗 */
 #footer {
     background: rgba(0, 0, 0, 0);
-    backdrop-filter: brightness(60%) blur(16px);
+    backdrop-filter: brightness(80%) blur(16px);
     font-size: large;
     font-weight: bold;
 }
