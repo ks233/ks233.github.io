@@ -1,9 +1,9 @@
 :root {
-    --card-bg: rgba(255, 255, 255, 0.9);
+    --card-bg: rgba(255, 255, 255, 0.95);
 }
 
 [data-theme='dark']:root {
-    --card-bg: rgba(18, 18, 18, 0.9);
+    --card-bg: rgba(18, 18, 18, 0.95);
 }
 
 /* 页脚模糊 + 变暗 */
