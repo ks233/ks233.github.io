@@ -77,13 +77,14 @@ const config = {
                     src: 'img/logo.svg',
                 },
                 items: [
-                    {
-                        type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
-                        position: 'left',
-                        label: '档案馆',
-                    },
                     { to: '/blog', label: '博客', position: 'left' },
+                    // /docs 里还没东西，暂时隐藏
+                    // {
+                    //     type: 'docSidebar',
+                    //     sidebarId: 'tutorialSidebar',
+                    //     position: 'left',
+                    //     label: '档案馆',
+                    // },
                     {
                         href: 'https://github.com/ks233',
                         label: 'GitHub',
